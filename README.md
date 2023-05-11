@@ -90,7 +90,10 @@ assign d6 = (a&b&~c);
 assign d7 = (a&b&c);
 endmodule
 ```
-### RTL LOGIC  
+### RTL LOGIC 
+# ENCODER:
+![Screenshot (198)](https://github.com/Vaishnavi-saravanan/Experiment-08-Encoders-and-decoders-/assets/118541897/eadededc-b2d5-43dc-94c0-f120ef230a1d)
+
 # DECODER:
 ![Screenshot 2023-05-11 132500](https://github.com/Vaishnavi-saravanan/Experiment-08-Encoders-and-decoders-/assets/118541897/e9dde69b-ac35-4683-9e36-28388c8e3baa)
 
