@@ -62,35 +62,46 @@ D7 = X Y Z
 ### PROGRAM 
 /*
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by:VAISHNAVI S 
+RegisterNumber: 212222230165 
 */
+# ENCODER:
+module enco(a,b,c,d0,d1,d2,d3,d4,d5,d6,d7);
+output a,b,c;
+input d0,d1,d2,d3,d4,d5,d6,d7;
+or(a,d4,d5,d6,d7);
+or(b,d2,d3,d6,d7);
+or(c,d1,d3,d5,d7);
+endmodule
 
-
-
-
-
+# DECODER:
+module exp8(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
+input a,b,c;
+output d0,d1,d2,d3,d4,d5,d6,d7;
+assign d0 = (~a&~b&~c);
+assign d1 = (~a&~b&c);
+assign d2 = (~a&b&~c);
+assign d3 = (~a&b&c);
+assign d4 = (a&~b&~c);
+assign d5 = (a&~b&c);
+assign d6 = (a&b&~c);
+assign d7 = (a&b&c);
+endmodule
 
 ### RTL LOGIC  
-
-
-
-
-
-
-
+# DECODER:
+![Screenshot 2023-05-11 132500](https://github.com/Vaishnavi-saravanan/Experiment-08-Encoders-and-decoders-/assets/118541897/e9dde69b-ac35-4683-9e36-28388c8e3baa)
 
 ### TIMING DIGRAMS  
-
-
-
-
+# DECODER:
+![Screenshot (197)](https://github.com/Vaishnavi-saravanan/Experiment-08-Encoders-and-decoders-/assets/118541897/da4167f3-cc6e-4049-921c-324c2d017740)
 
 ### TRUTH TABLE 
+# ENCODER:
+![Screenshot 2023-05-11 143411](https://github.com/Vaishnavi-saravanan/Experiment-08-Encoders-and-decoders-/assets/118541897/5f74d4dc-18e1-45ed-adf9-3d6f4d976e94)
 
-
-
-
-
+# DECODER:
+![Screenshot 2023-05-11 143428](https://github.com/Vaishnavi-saravanan/Experiment-08-Encoders-and-decoders-/assets/118541897/edfade3d-d3a7-445a-b36e-cf14764a2393)
 
 ### RESULTS 
+Thus the program to desing encoder and decoder is completed.
