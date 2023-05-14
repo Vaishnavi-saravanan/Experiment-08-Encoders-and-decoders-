@@ -98,6 +98,9 @@ endmodule
 ![Screenshot 2023-05-11 132500](https://github.com/Vaishnavi-saravanan/Experiment-08-Encoders-and-decoders-/assets/118541897/e9dde69b-ac35-4683-9e36-28388c8e3baa)
 
 ### TIMING DIGRAMS  
+# ENCODER:
+![Screenshot 2023-05-14 180722](https://github.com/Vaishnavi-saravanan/Experiment-08-Encoders-and-decoders-/assets/118541897/d62caef7-67c5-4441-ad68-a4a286be2c27)
+
 # DECODER:
 ![Screenshot (197)](https://github.com/Vaishnavi-saravanan/Experiment-08-Encoders-and-decoders-/assets/118541897/da4167f3-cc6e-4049-921c-324c2d017740)
 
